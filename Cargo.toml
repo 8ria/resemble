@@ -8,7 +8,7 @@ license = "MIT"
 repository = "https://github.com/8ria/resemble"
 readme = "README.md"
 keywords = ["rust", "ast", "similarity", "cosine", "embeddings"]
-categories = ["development-tools", "analysis"]
+categories = ["development-tools", "parsing"]
 
 [dependencies]
 syn = { version = "2.0", features = ["full", "visit"] }
