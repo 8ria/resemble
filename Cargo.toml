@@ -1,0 +1,19 @@
+[package]
+name = "resemble"
+version = "0.1.0"
+edition = "2021"
+authors = ["AndriaK <hey@andriaK.com>"]
+description = "Rust code similarity checker based on AST node embeddings and cosine similarity"
+license = "MIT"
+repository = "https://github.com/8ria/resemble"
+readme = "README.md"
+keywords = ["rust", "ast", "similarity", "cosine", "embeddings"]
+categories = ["development-tools", "analysis"]
+
+[dependencies]
+syn = { version = "2.0", features = ["full", "visit"] }
+anyhow = "1.0"
+serde = { version = "1.0", features = ["derive"] }
+
+[dev-dependencies]
+pretty_assertions = "1.4"
